@@ -1,0 +1,12 @@
+---
+- name: Configure Nginx Vhosts
+  hosts: all
+  become: yes
+  vars:
+    vhosts:
+      - name: site1
+        port: 8081
+      - name: site2
+        port: 8082
+  roles:
+    - role: nginx_vhost
