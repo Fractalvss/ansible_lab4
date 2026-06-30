@@ -27,9 +27,9 @@ curl http://10.0.2.4:8082
 ```
 
 ## Скриншоты работы
-
+### Запуск плейбука
 ![Запуск плейбука](screenshots/run_playbook.png)
-
+### Проверка curl
 ![Проверка curl](screenshots/curl_check.png)
-
+### Структура
 ![Структура](screenshots/file_structure.png)
